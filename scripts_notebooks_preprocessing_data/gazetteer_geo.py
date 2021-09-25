@@ -9,7 +9,7 @@ import csv
 
 if __name__ == "__main__":
     input_csv = "../output_data_prepared/quicherat_voyages_geolocalises_images_enrichi.csv"
-    output_file = "../output_data_prepared/Gazetteer_loc_quicherat"
+    output_file = "../output_data_prepared/Gazetteer_loc_quicherat.txt"
     intermediate = []
     with open(input_csv) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
