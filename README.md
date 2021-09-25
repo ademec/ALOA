@@ -2,7 +2,7 @@
 
 ## Réalisation de l'Équipe ALOA
 
-Ce projet a été réaliser dans le cadre du Hackathon ADEMEC 2021
+Ce projet a été réalisé dans le cadre du Hackathon ADEMEC 2021
 
 #### Description
 
