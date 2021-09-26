@@ -52,7 +52,7 @@ Le code de la webapp est accessible suivant ce path:
 
 ```
 # Webapp
-./webapp
+./visualquicherat.zip
 ````
 
 ### Les jeux de données
@@ -111,7 +111,7 @@ Accès:
 
 ```
 # Webapp
-./visualapp
+./visualquicherat.zip
 ````
 
 Outil de visualisation cartographique des lieux visités par Quicherat. Muni de filtres, cette carte propose un outil analytique interactif de la vie du savant. Dans sa version complète, l'outil devrait regrouper un plus grand nombre de données croisées et intéragir avec une frise chronologique pour ancrer l'analyse spatiale dans la vie de Quicherat.
@@ -131,7 +131,7 @@ Accès :
 
 ```
 # Webapp
-./visualapp
+./visualquicherat.zip
 ````
 
 Représentation des grandes étapes de la vie de Quicherat sur une frise chronologique interactive. Elle est actuellement en construction.
