@@ -12,8 +12,8 @@ Par l'équipe ALOA:
 
 ### Les jeux de données
 
-- [x]
-- [ ]
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
 ### L
 
