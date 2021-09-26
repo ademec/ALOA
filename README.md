@@ -44,9 +44,9 @@ Enfin, les voyages de Jules Quicherat sont également un moyen de le replacer au
 
 ### Webapp
 
-La contribution principal de ce projet est une webapp proposant une analyse chrono-temporelle des voyages de Quicherat.
+La contribution principale de ce projet est une webapp proposant une analyse chrono-temporelle des voyages de Quicherat.
 
-Le code de la webapp est accessible ici:
+Le code de la webapp est accessible suivant ce path:
 
 ```
 # Webapp
@@ -74,7 +74,7 @@ Il s'agit du jeu de données des Carnets de voyages de Quicherat aggrémenté d'
 - travail sur la géolocalisation des carnets: localisations ADEMEC plus complètes et corrigées
 - ajout d'un champ avec les thèses mentionnant les lieux visités par Jules Quicherat
 
-(Visulation des données)(http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#11/46.5641/0.2815)
+[Visulation des données](http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#11/46.5641/0.2815)
 
 **Positions de thèse**
 
@@ -86,15 +86,15 @@ Il s'agit du jeu de données des positions de thèses des anciens chartistes.
 
 Il s'agit d'un jeu de données construit pour compléter les données du hackaton. Il est issu d'un scrapping du CTHS (id,date,localisation) identifiant les sociétés savantes
 
-(Visulation des données)(http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#8/47.558/2.076)
+[Visulation des données](http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#8/47.558/2.076)
 
 *TO DO*
 
-- [ ] organiser une macro-base de données
+- [ ] Organiser une macro-base de données
 - [ ] Affiner la reconnaissance des lieux
 - [ ] Enrichir le repository avec des jeux de données (HTR sur les carnets pour identifier les personnalités savantes mentionnées)
-- [ ] interroger d'autres bases de données pour enrichir les informations sur la production de Quicherat
-- [ ] croiser les dessins avec des données de musée
+- [ ] Interroger d'autres bases de données pour enrichir les informations sur la production de Quicherat
+- [ ] Croiser les dessins avec des données de musée
 
 **Preprocessing files**
 
@@ -142,7 +142,5 @@ Représentation des grandes étapes de la vie de Quicherat sur une frise chronol
 
 - [ ] compléter la frise avec une analyse biographique de Quicherat. Y faire figurer les grandes oeuvres de sa vie
 - [ ] Faire l'intéraction entre la frise et la carte
-
-*****
 
 
