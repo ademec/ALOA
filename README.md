@@ -90,7 +90,7 @@ Il s'agit d'un jeu de données construit pour compléter les données du hackato
 
 *TO DO*
 
-- [ ] Organiser une macro-base de données
+- [ ] Organiser une bases de données qui aggrège toutes les données
 - [ ] Affiner la reconnaissance des lieux
 - [ ] Enrichir le repository avec des jeux de données (HTR sur les carnets pour identifier les personnalités savantes mentionnées)
 - [ ] Interroger d'autres bases de données pour enrichir les informations sur la production de Quicherat
@@ -123,7 +123,7 @@ Outil de visualisation cartographique des lieux visités par Quicherat. Muni de 
 - [ ] regroupements des cartes en une carte unique
 - [ ] compléter les métadonnées des points
 - [ ] compléter les filtres / moteur de recherche
-- [ ] intéraction avec le frise
+- [ ] Intéraction avec la frise
 
 ### Timeline
 
