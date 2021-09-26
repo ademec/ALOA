@@ -28,9 +28,21 @@ Jules Quicherat s’inscrit à ce titre dans cette tradition qui est également 
 
 Enfin, les voyages de Jules Quicherat sont également un moyen de le replacer au sein d’un contexte plus large des sociétés savantes. La cartographie réalisée permet de visualiser l’éventuel recoupement entre les lieux visités par Jules Quicherat et les implantations des différentes sociétés savantes de son époque, aboutissant ainsi à une géographie du milieu au sein duquel il évolue. Dans ce cadre, l’analyse pourrait être poussée en réalisant une océrisation des différentes notes prises par Jules Quicherat dans ses différents carnets afin de pouvoir réaliser une analyse plein texte. La recherche sur les individus mentionnés par Jules Quicherat, couplée à l’interrogation d’une base de données listant les membres de ces différentes sociétés savantes (ex : base prosopographie du CTHS), autoriserait d’étudier à quel point Jules Quicherat s’inscrit dans un véritable réseau à l’échelle du pays.
 
+## Organisation du repository
 
+```
+|_ README.md
+|_ LICENSE
+|__ input_data
+|__ output_data
+|__ webapp
+|__ webcontenu
+|__ preprocessing_files
+|__ imgs
+|__ ppt
+```
 
-## Roadmap
+## Contributions
 
 ### Les jeux de données
 
@@ -57,27 +69,26 @@ Il s'agit du jeu de données des Carnets de voyages de Quicherat aggrémenté d'
 
 Il s'agit du jeu de données des positions de thèses des anciens chartistes.
 - Il est completé avec les descriptions complètes des positions de thèse
-- Extraction des localités mentionnées
+- Extraction via NER des localités mentionnées par les positions de thèses
 
-- Travail sur la géolocalisation ADEMEC + plus complet / corrigé
-- Croisement avec les positions de thèses
-- Merger et compléter le jeu de données des positions de thèse
-- Sociétés savantes: issu du CTHS (pas accessible dans le hackaton) => scrapper (_id,date,localisation) => recoupement avec les sociétés savantes
-- HTR man
+**Sociétés savantes**
+
+Il s'agit d'un jeu de données construit pour compléter les données du hackaton. Il est issu d'un scrapping du CTHS (id,date,localisation) identifiant les sociétés savantes
 
 *TO DO*
 
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-- affiner la détection de lieux et la façon de synchro les positions de thèse et
-
-*TO DO*
-
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [ ] Affiner la reconnaissance des lieux
+- [ ] Croiser les carnets de voyages avec les sociétés savantes
+- [ ] Enrichir le repository avec avec des jeux de données (HTR sur les carnets pour identifier les personnalités savantes mentionnées)
 
 ### Map
+
+Accès:
+
+```
+# Webapp
+````
+
 
 - visualisation des voyages de Quicherat
 
@@ -88,25 +99,19 @@ Il s'agit du jeu de données des positions de thèses des anciens chartistes.
 
 ### Timeline
 
+![frise](imgs/frise.png)
+
+```
+# Webapp
+````
+
+Représentation des grandes étapes de la vie de Quicherat sur une frise chronologique interactive. Elle est actuellement en construction.
+
+*TO DO*
+
+- [ ] compléter la frise avec une analyse biographique de Quicherat. Y faire figurer les grandes oeuvres de sa vie
+- [ ] Faire l'intéraction entre la frise et la carte
+
 *****
 
-
-
-### L
-
-## Organisation du repository
-
-```
-|_ README.md
-|_ LICENSE
-|__ input_data
-|__ output_data
-|__ webapp
-|__ webcontenu
-|__ preprocessing_files
-|__ imgs
-|__ ppt
-```
-
-*Application de visualisations chrono-spatiales des chartistes à travers les voyages de Quicherat.*
 
