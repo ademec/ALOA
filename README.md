@@ -5,6 +5,8 @@
 ## Allers et retours d'un chartiste: récit de Jules Quicherat
 Ce projet a été réalisé dans le cadre du Hackathon ADEMEC 2021 par l'équipe ALOA.
 
+[Carnet de bord]() | [Présentation exhaustive du projet]()
+
 ## Introduction
 
 ### Jules Quicherat
