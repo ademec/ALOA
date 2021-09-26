@@ -1,11 +1,23 @@
 # VisualQuicherat
-## Allers et retours d'un chartiste: récit de Jules Quicherat
 
 ![image hackaton](imgs/hackaton.png)
 
-## Réalisation de l'Équipe ALOA
+## Allers et retours d'un chartiste: récit de Jules Quicherat
+Par l'équipe ALOA:
 
-cc
+## Le projet
+
+
+## Roadmap
+
+### Les jeux de données
+
+- [x]
+- [ ]
+
+### L
+
+## Organisation du repository
 
 
 Ce projet a été réalisé dans le cadre du Hackathon ADEMEC 2021
