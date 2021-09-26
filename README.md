@@ -123,7 +123,7 @@ Outil de visualisation cartographique des lieux visités par Quicherat. Muni de 
 
 ### Timeline
 
-![frise](imgs/frise.png)
+![frise](imgs/frise_2.png)
 
 Accès :
 
