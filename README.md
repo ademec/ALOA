@@ -68,19 +68,19 @@ Nous avons affiné et constitué trois jeux de données (Carnets de voyages de Q
 ./output_data/societes_cths_1888_Presence_Quicherat.csv
 ````
 
-**Carnet de voyages de Quicherat** [(Visulation des données)](http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#11/46.5641/0.2815)
+**Carnet de voyages de Quicherat** ([jeu de données](./output_data/quicherat_voyages_geolocalises_images_avec_theses.csv)/[Carte des données](http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#11/46.5641/0.2815))
 
 Il s'agit du jeu de données des Carnets de voyages de Quicherat aggrémenté d'information supplémentaire :
 - travail sur la géolocalisation des carnets: localisations ADEMEC plus complètes et corrigées
 - ajout d'un champ avec les thèses mentionnant les lieux visités par Jules Quicherat
 
-**Positions de thèse**
+**Positions de thèse** ([jeu de données](./output_data/theses_with_location.csv))
 
 Il s'agit du jeu de données des positions de thèses des anciens chartistes.
 - Il est completé avec les descriptions complètes des positions de thèse
 - Extraction via NER des localités mentionnées par les positions de thèses
 
-**Sociétés savantes** [(Visulation des données)](http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#8/47.558/2.076)
+**Sociétés savantes** ([jeu de données](./output_data/societes_cths_1888_Presence_Quicherat.csv)/[Visulation des données](http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#8/47.558/2.076))
 
 Il s'agit d'un jeu de données construit pour compléter les données du hackaton. Il est issu d'un scrapping du CTHS (id,date,localisation) identifiant les sociétés savantes
 
