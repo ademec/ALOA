@@ -1,0 +1,113 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Piece",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Piece using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Piece",
+    "expression": "grel:value.replace(/° /,'°')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Piece using expression grel:value.replace(/° /,'°')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Piece",
+          "columnName": "Piece",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Piece",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Piece using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Piece",
+    "expression": "grel:cell.cross(\"carnet quicherat xlsx\",\"num_carnet\").cells[\"titre\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "titre_carnet",
+    "columnInsertIndex": 2,
+    "description": "Create column titre_carnet at index 2 based on column Piece using expression grel:cell.cross(\"carnet quicherat xlsx\",\"num_carnet\").cells[\"titre\"].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Piece",
+    "expression": "grel:cell.cross(\"carnet quicherat xlsx\",\"num_carnet\").cells[\"cote\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "cote_carnet",
+    "columnInsertIndex": 2,
+    "description": "Create column cote_carnet at index 2 based on column Piece using expression grel:cell.cross(\"carnet quicherat xlsx\",\"num_carnet\").cells[\"cote\"].value[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Piece",
+    "expression": "grel:cell.cross(\"carnet quicherat xlsx\",\"num_carnet\").cells[\"annees\"].value[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "annees",
+    "columnInsertIndex": 2,
+    "description": "Create column annees at index 2 based on column Piece using expression grel:cell.cross(\"carnet quicherat xlsx\",\"num_carnet\").cells[\"annees\"].value[0]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Longitude",
+          "columnName": "Longitude",
+          "query": "CEST",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Longitude",
+    "expression": "grel:value.replace(/^... (...) .(.).*/,'$2.$1').replace(/\\.Jan/,'.01').replace(/\\.Feb/,'.02').replace(/\\.Mar/,'.03').replace(/\\.Apr/,'.04').replace(/\\.May/,'.05').replace(/\\.Jun/,'.06').replace(/\\.Jul/,'.07').replace(/\\.Aug/,'.08').replace(/\\.Sep/,'.09').replace(/\\.Oct/,'.10').replace(/\\.Nov/,'.11').replace(/\\.Dec/,'.12')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Longitude using expression grel:value.replace(/^... (...) .(.).*/,'$2.$1').replace(/\\.Jan/,'.01').replace(/\\.Feb/,'.02').replace(/\\.Mar/,'.03').replace(/\\.Apr/,'.04').replace(/\\.May/,'.05').replace(/\\.Jun/,'.06').replace(/\\.Jul/,'.07').replace(/\\.Aug/,'.08').replace(/\\.Sep/,'.09').replace(/\\.Oct/,'.10').replace(/\\.Nov/,'.11').replace(/\\.Dec/,'.12')"
+  }
+]
