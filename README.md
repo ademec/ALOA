@@ -5,7 +5,7 @@
 ## Allers et retours d'un chartiste: récit de Jules Quicherat
 Ce projet a été réalisé dans le cadre du Hackathon ADEMEC 2021 par l'équipe ALOA.
 
-[Carnet de bord](carnet_de_bord.pptx) | [Présentation exhaustive du projet](TexteQuicheratVF.html)
+[Carnet de bord](https://github.com/ademec/ALOA/blob/main/Carnet%20de%20bord.pptx) | [Présentation exhaustive du projet](TexteQuicheratVF.html)
 
 ## Introduction
 
@@ -35,7 +35,7 @@ Enfin, les voyages de Jules Quicherat sont également un moyen de le replacer au
 |_ LICENSE
 |__ input_data
 |__ output_data
-|__ webapp
+|__ visualapp
 |__ webcontenu
 |__ preprocessing_files
 |__ imgs
@@ -111,7 +111,7 @@ Accès:
 
 ```
 # Webapp
-./webapp
+./visualapp
 ````
 
 Outil de visualisation cartographique des lieux visités par Quicherat. Muni de filtres, cette carte propose un outil analytique interactif de la vie du savant. Dans sa version complète, l'outil devrait regrouper un plus grand nombre de données croisées et intéragir avec une frise chronologique pour ancrer l'analyse spatiale dans la vie de Quicherat.
@@ -131,7 +131,7 @@ Accès :
 
 ```
 # Webapp
-./webapp
+./visualapp
 ````
 
 Représentation des grandes étapes de la vie de Quicherat sur une frise chronologique interactive. Elle est actuellement en construction.
