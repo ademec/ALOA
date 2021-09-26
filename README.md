@@ -16,9 +16,7 @@ Ce projet a été réalisé dans le cadre du Hackathon ADEMEC 2021 par l'équipe
 Les carnets de Quicherat est un corpus documentaire initialement composé de 53 items parmi lesquels 43 sont désormais conservés aux Archives nationales sous la cote 93AJ/316, et ayant fait l’objet d’une numérisation. Chacun d’entre eux contient à la fois des annotations manuscrites – tant sur les lieux et édifices visités que sur le voyage en tant que tel – et des dessins sur les différents monuments et artefacts étudiés par Quicherat. Dans le cadre de cette analyse, seules les pages de carnets associées à une géolocalisation ont été exploitées.
 
 
-## Projet
-
-### Les voyages de Quicherat, révélateurs du milieu scientifique de son époque
+## Projet: Les voyages de Quicherat, révélateurs du milieu scientifique de son époque
 
 L’intérêt fort des carnets de Quicherat se situe à plusieurs niveaux. Outre une œuvre de terrain ayant servi à alimenter le travail de recherche de Jules Quicherat, ces documents sont à mettre en relation avec son enseignement et plus largement son impact au sein de l’École des Chartes. Ainsi, parmi les différents lieux et édifices visités, certains d’entre eux se retrouvent dans le cadre de sujets de thèses traités par les différentes promotions contemporaines ou postérieures à la période d’activité de Jules Quicherat à l’École des Chartes. Outre un indice sur l’influence et le rôle majeur que ce dernier a pu jouer au sein de cette institution, la mise en relation de ces différents ensembles documentaires donne également à voir comment la production historique peut s’engager.
 
@@ -44,6 +42,17 @@ Enfin, les voyages de Jules Quicherat sont également un moyen de le replacer au
 
 ## Contributions
 
+### Webapp
+
+La contribution principal de ce projet est une webapp proposant une analyse chrono-temporelle des voyages de Quicherat.
+
+Le code de la webapp est accessible ici:
+
+```
+# Webapp
+./webapp
+````
+
 ### Les jeux de données
 
 Nous avons affiné et constitué trois jeux de données (Carnets de voyages de Quicherat, Positions de thèse des anciens chartistes, Sociétés savantes) accessibles aux liens suivants:
@@ -65,6 +74,8 @@ Il s'agit du jeu de données des Carnets de voyages de Quicherat aggrémenté d'
 - travail sur la géolocalisation des carnets: localisations ADEMEC plus complètes et corrigées
 - ajout d'un champ avec les thèses mentionnant les lieux visités par Jules Quicherat
 
+(Visulation des données)(http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#11/46.5641/0.2815)
+
 **Positions de thèse**
 
 Il s'agit du jeu de données des positions de thèses des anciens chartistes.
@@ -75,11 +86,26 @@ Il s'agit du jeu de données des positions de thèses des anciens chartistes.
 
 Il s'agit d'un jeu de données construit pour compléter les données du hackaton. Il est issu d'un scrapping du CTHS (id,date,localisation) identifiant les sociétés savantes
 
+(Visulation des données)(http://umap.openstreetmap.fr/fr/map/carte-des-pages-de-quicherat-geolocalisees_660906#8/47.558/2.076)
+
 *TO DO*
 
+- [ ] organiser une macro-base de données
 - [ ] Affiner la reconnaissance des lieux
-- [ ] Croiser les carnets de voyages avec les sociétés savantes
-- [ ] Enrichir le repository avec avec des jeux de données (HTR sur les carnets pour identifier les personnalités savantes mentionnées)
+- [ ] Enrichir le repository avec des jeux de données (HTR sur les carnets pour identifier les personnalités savantes mentionnées)
+- [ ] interroger d'autres bases de données pour enrichir les informations sur la production de Quicherat
+- [ ] croiser les dessins avec des données de musée
+
+**Preprocessing files**
+
+Accès:
+
+```
+# Webapp
+./preprocessing_files
+```
+
+Regroupe l'ensemble des fichiers de preprocessing utilisé pour construire les jeux de données
 
 ### Map
 
@@ -87,22 +113,27 @@ Accès:
 
 ```
 # Webapp
+./webapp
 ````
 
-
-- visualisation des voyages de Quicherat
+Outil de visualisation cartographique des lieux visités par Quicherat. Muni de filtres, cette carte propose un outil analytique interactif de la vie du savant. Dans sa version complète, l'outil devrait regrouper un plus grand nombre de données croisées et intéragir avec une frise chronologique pour ancrer l'analyse spatiale dans la vie de Quicherat.
 
 *TO DO*
 
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [ ] regroupements des cartes en une carte unique
+- [ ] compléter les métadonnées des points
+- [ ] compléter les filtres / moteur de recherche
+- [ ] intéraction avec le frise
 
 ### Timeline
 
 ![frise](imgs/frise.png)
 
+Accès :
+
 ```
 # Webapp
+./webapp
 ````
 
 Représentation des grandes étapes de la vie de Quicherat sur une frise chronologique interactive. Elle est actuellement en construction.
